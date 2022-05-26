@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import inputtask from './inputtask';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h2>Kanban App</h2>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,6 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <a>alles gut</a>
+      <inputtask />
     </div>
   );
 }
